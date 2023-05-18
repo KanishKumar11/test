@@ -823,6 +823,8 @@ Table sub clients bg (Neutral 0)
     .visit{
         width: 80% !important;
         margin: auto;
+
+        background:rgb(236, 231, 231) !important;
     }
     .frame4 a{
         width: 100vw !important;
