@@ -224,7 +224,7 @@ Table sub clients bg (Neutral 0)
     background: #FFFFFF !important;
     /* Neutral/N 50 */
 
-    border: 1.5px solid #F1F1F3 !important;
+    /* border: 1.5px solid #F1F1F3 !important; */
     border-radius: 8px !important;
 
     /* Inside auto layout */
@@ -275,7 +275,8 @@ Table sub clients bg (Neutral 0)
     gap: 10px !important;
     width: 76px !important;
     height: 32px !important;
-
+    position: absolute;
+    right: 5.3rem;
 
     /* Inside auto layout */
 
@@ -305,10 +306,11 @@ Table sub clients bg (Neutral 0)
     align-items: center !important;
     padding: 6px 12px !important;
     gap: 10px !important;
-    position: relative !important;
+    position: absolute !important;
     width: 180px !important;
     height: 90px !important;
-
+    top:5rem;
+    right: 1rem;
 
     /* Inside auto layout */
 
@@ -596,9 +598,9 @@ Table sub clients bg (Neutral 0)
 
     position: absolute !important;
     width: 65% !important;
-    height: 198px !important;
+    height: auto !important;
     left: 12% !important;
-    top: 1040px !important;
+    top: 68.75rem !important;
 }
 
 .image {
@@ -705,7 +707,7 @@ Table sub clients bg (Neutral 0)
     width: 65% !important;
     height: 198px !important;
     left: 12% !important;
-    top: 1350px !important;
+    top: 85rem !important;
 }
 
 .shareButtons {
@@ -830,10 +832,15 @@ Table sub clients bg (Neutral 0)
         flex-direction: column-reverse !important;
         margin-left: 3.125rem;
         align-items: flex-start !important;
+        left: 0 !important;
         justify-content: center !important;
+    }
+    .share .Share{
+        left: 3rem;
     }
     .report{
         margin-left:-1.25rem ;
+        left: 2rem;
     }
     .describe{
         top: 71rem !important;
@@ -848,6 +855,8 @@ Table sub clients bg (Neutral 0)
     }
     .describe .Share{
         color: green !important;
+        left: 0;
+        top: 12.5rem;
     }
     .describe .Share img{
         color: green;
@@ -865,7 +874,7 @@ Table sub clients bg (Neutral 0)
         display: none !important ;
     }
     .upvotedprofiles{
-        top: 125rem !important;
+        top: 128rem !important;
         height: 68.75rem !important;
         left: 0 !important;
     }
@@ -917,6 +926,26 @@ Table sub clients bg (Neutral 0)
         position: absolute !important;
         left: 15.625rem !important;
     }
+    .social h2{
+        display: none;
+    }
+    .social a div{
+        display: flex;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+    .social a div p{
+        display: none;
+    }
+    .share{
+        margin-top: 4rem;
+        flex-direction: column-reverse !important;
+        margin-left: 3.125rem;
+        align-items: flex-start !important;
+        justify-content: center !important;
+    }
+    
 }
 .tagbox h2{
     font-weight: 600;

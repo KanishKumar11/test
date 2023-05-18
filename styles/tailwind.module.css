@@ -135,9 +135,7 @@
     align-items: center;
     padding: 0.625rem 1rem;
 }
-.thov:hover{
-   background-color: white
-}
+
 .thov{
     outline:none;
 }
@@ -159,4 +157,15 @@
     width: 5rem;
     height: 5rem;
     border-radius: 1rem;
+}
+@media (min-width:64rem) {
+    .handle{
+        visibility: hidden;
+    }
+    .tcont{
+        gap:10rem;
+    }
+    .texplore{
+        padding-left: 5rem;
+    }
 }

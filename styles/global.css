@@ -1858,7 +1858,7 @@ a {
   gap: 10px !important;
   cursor: pointer !important;
   width: 222px !important;
-  height: 20px !important;
+  height: 40px !important;
 
   /* Surface/Divider */
 
@@ -2039,8 +2039,8 @@ a {
 }
 #dropdownHover{
   position: absolute;
-  top: 20rem;
-  right: 3rem;
+  top: 17rem;
+  right: 1rem;
 }
 #dropdownHover1{
   position: absolute;
