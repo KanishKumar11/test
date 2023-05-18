@@ -823,7 +823,6 @@ Table sub clients bg (Neutral 0)
     .visit{
         width: 80% !important;
         margin: auto;
-
         background:rgb(236, 231, 231) !important;
     }
     .frame4 a{
@@ -926,7 +925,7 @@ Table sub clients bg (Neutral 0)
 @media (min-width:46.25rem) {
     .images{
         position: absolute !important;
-        left: 15.625rem !important;
+        left: 10.625rem !important;
     }
     .social h2{
         display: none;
@@ -947,7 +946,15 @@ Table sub clients bg (Neutral 0)
         align-items: flex-start !important;
         justify-content: center !important;
     }
-    
+    .report{
+        border:0.1rem solid #F1F1F3 !important;
+        border-radius:.5rem !important;
+        padding-top: 1rem !important;
+    }
+    .visit{
+        margin-top: 1rem !important;
+
+    }
 }
 .tagbox h2{
     font-weight: 600;
