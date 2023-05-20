@@ -13,7 +13,6 @@ import Image from "next/image";
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import CancelIcon from '@mui/icons-material/Cancel';
 import SearchIcon from '@mui/icons-material/Search';
-import ShareIcon from '@mui/icons-material/Share';
 
 export default function Header({ postion }) {
 
@@ -54,13 +53,13 @@ export default function Header({ postion }) {
             <Logo />
             </div>
 
-            <div className="hidden lg:flex" style={{width:"500px"}}>
+            <div className="hidden lg:flex" style={{width:"800px", minWidth:"500px"}}>
             <SearchBar />
             </div>
-
+ 
             {/* </div> */}
 
-            <div className="hidden lg:flex gap-[1rem]">
+            <div className="hidden lg:flex flex-row">
             <SubmitProject />
             <WalletConnect />
             </div>
@@ -70,8 +69,8 @@ export default function Header({ postion }) {
             {/* <SearchBar /> */}
             {/* </div> */}
             
-             </div>
-            <div onClick={()=>{setModel(true)}} className="text-black visible block lg:hidden">
+            </div>
+            <div onClick={()=>{setModel(true)}} className="text-black visible block lg:hidden mr-3">
             <DehazeIcon className={styles.hammMenu}/>
                 {/* <Image src={Ham} className="w-10 h-8 border border-black rounded-lg mr-2" /> */}
             </div>

@@ -575,6 +575,8 @@ a {
 
 .component .search .img {
   margin: 0.6rem !important;
+  height: 100%;
+  align-self: center;
 }
 
 .component .search .x {
