@@ -166,7 +166,6 @@ const Explore = ({ data, category, period }) => {
     width: 360,
     height: 780,
     bgcolor: 'background.paper',
-    border: '2px solid #000',
     boxShadow: 24,
     p: 4,
   };
@@ -294,7 +293,7 @@ const Explore = ({ data, category, period }) => {
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
             >
-              <Box sx={style}>
+              <Box sx={style} className="rounded-lg">
 
                 {A && <Col style={{ backgroundColor: "#FFFFFF " }} className={`${tstyles.tcol} explorer-col`} onClick={() => {
                   if (window.innerWidth < 800) {

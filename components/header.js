@@ -6,12 +6,14 @@ import SearchBar from "./searchBar";
 import { SubmitProject, WalletConnect } from './WalletConnect/WalletConnect';
 // import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import styles from'../styles/Home.module.css'
+import tstyles from'../styles/tailwind.module.css'
 import HamMenu from "./HamMenu";
 import Ham from '../assets/Buttons.png'
 import Image from "next/image";
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import CancelIcon from '@mui/icons-material/Cancel';
 import SearchIcon from '@mui/icons-material/Search';
+import ShareIcon from '@mui/icons-material/Share';
 
 export default function Header({ postion }) {
 
@@ -62,8 +64,14 @@ export default function Header({ postion }) {
             <SubmitProject />
             <WalletConnect />
             </div>
-
-            <div onClick={()=>{setModel(true)}} className="text-black visible lg:hidden mr-3">
+            <div className="ss">
+            <SearchIcon className={`${styles.search} search`} />
+            {/* <div className="visible" style={{width:"500px"}}> */}
+            {/* <SearchBar /> */}
+            {/* </div> */}
+            
+             </div>
+            <div onClick={()=>{setModel(true)}} className="text-black visible lg:hidden">
             <DehazeIcon className={styles.hammMenu}/>
                 {/* <Image src={Ham} className="w-10 h-8 border border-black rounded-lg mr-2" /> */}
             </div>

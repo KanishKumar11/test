@@ -6,6 +6,7 @@
   line-height: 47px !important;
   font-weight: 700 !important;
   background: linear-gradient(91.11deg, #d95cdf, #5738ce 24.76%, #2a85d0) !important;
+  background-clip: text !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   max-width: 853px !important;
@@ -202,7 +203,7 @@
 
 @media screen and (max-width: 800px) {
   .projGrid{
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     max-width: 25rem;
@@ -210,7 +211,9 @@
   .secGrid{
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center !important; 
+    justify-content: center !important;
+    /* margin-left:auto !important; */
   }
   .secGrid > div{
     max-width: none;
@@ -235,17 +238,17 @@
   }
   .inviteGrid{
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     justify-content: center;
     align-items: center;
+    padding-right: 6rem !important;
+    padding-left: 0 !important;
   }
   .inviteGrid > *{
     max-width: none;
   }
-  .inviteGrid > p{
-    /* max-width: 20rem; */
-  }
-
+ 
+  
 
   .parentGroup{
     position: absolute;
@@ -256,7 +259,7 @@
     margin-top: 175px;
     position: absolute !important;
     top: 0 !important;
-    left: 0 !important;
+    left: -3rem !important;
     width: 369px !important;
     height: fit-content !important;
   }
@@ -418,7 +421,7 @@
 
   .active {
     background: #000000;
-;
+
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -489,4 +492,5 @@
   .hammMenu{
     display: inline-block;
     }
+    
 }

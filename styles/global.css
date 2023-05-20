@@ -1041,9 +1041,7 @@ a {
   font-weight: 700 !important;
   font-size: '1rem'
 }
-.searchIcon{
-  /* display: none; */
-}
+
 
 @media (min-width:767px) {
 
@@ -1167,10 +1165,7 @@ a {
     background-size: cover !important;
     border-radius: 20px !important;
   }
-  .searchIcon{
-    /* display: inline-block; */
-    /* background-color: blue; */
-  }
+  
   .connectwallet {
     margin-left: 8px;
   }
@@ -2057,7 +2052,7 @@ a {
   padding: 0rem 5px 5px 5px;
 }
 .explorer-col div{
-   width: 100%;
+   width: 95% !important;
    padding-top: 0;
 }
 .explorer-col div:hover{
@@ -2436,12 +2431,6 @@ Table sub clients bg (Neutral 0)
   flex-grow: 0 !important;
 }
 
-.header-container {
-  /* display: flex !important; */
-  /* gap: 47% !important; */
-  /* align-self: center; */
-  /* width: -webkit-fill-available !important; */
-}
 
 .nav-2-1 {
   display: flex !important;
@@ -2789,5 +2778,22 @@ Table sub clients bg (Neutral 0)
  
   .card-arrow, .card-num{
     color: white !important;
+  }
+  
+  .nav-buttons{
+    padding-left: 0 !important;
+  }
+  .ss{
+    right: .5rem !important;
+    top: .5rem !important;
+    position: absolute !important;
+  }
+  .component .search{
+    position: absolute !important;
+    border: none !important;
+    width: 35px !important;
+    background: none !important;
+    top: 1rem !important;
+    right: 3.5rem !important;
   }
 }
