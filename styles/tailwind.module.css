@@ -163,9 +163,12 @@
         visibility: hidden;
     }
     .tcont{
-        gap:10rem;
+        gap:1rem;
     }
     .texplore{
-        padding-left: 5rem;
+        padding-left: 3rem;
+    }
+    .ss{
+        display: none;
     }
 }

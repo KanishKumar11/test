@@ -251,7 +251,7 @@ a {
 }
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 .ps {
@@ -403,6 +403,7 @@ a {
   border-radius: 0.625rem !important;
   font-family: 'poppins' !important;
   font-weight: 500 !important;
+  width:max-content;
   font-size: 0.9rem !important;
   margin-left: 0;
 }
@@ -416,6 +417,7 @@ a {
   font-size: 0.875rem !important;
   color: #6F7588 !important;
   line-height: 1.25rem !important;
+  width: max-content;
   /* margin-right: 1.75rem !important; */
 }
 
@@ -2009,6 +2011,7 @@ a {
   flex-direction: row !important;
   align-items: center !important;
   gap: 3% !important;
+  width: 75vw;
   border-bottom: 1px solid #EEEFF2 !important;
   border-radius: 15px 15px 0px 0px !important;
 }
@@ -2016,6 +2019,9 @@ a {
 @media only screen and (min-width: 1px) and (max-width: 767px){
   .pl-5{
     padding-left: .5rem;
+  }
+  .cardgridview{
+    width: 100%;
   }
   .cardgridview{
   cursor: pointer !important;
@@ -2605,7 +2611,7 @@ Table sub clients bg (Neutral 0)
   align-items: center !important;
   padding: 8px 12px !important;
   gap: 10px !important;
-  width: 15% !important;
+  /* width: 15% !important; */
   height: 27px !important;
   background: #080C0F !important;
   border: 1px solid #EFFAF3 !important;
@@ -2786,7 +2792,7 @@ Table sub clients bg (Neutral 0)
   .ss{
     right: .5rem !important;
     top: .5rem !important;
-    position: absolute !important;
+    /* position: absolute !important; */
   }
   .component .search{
     position: absolute !important;
@@ -2795,5 +2801,10 @@ Table sub clients bg (Neutral 0)
     background: none !important;
     top: 1rem !important;
     right: 3.5rem !important;
+  }
+}
+@media (min-width:64rem) {
+  .ss{
+    display: none;
   }
 }

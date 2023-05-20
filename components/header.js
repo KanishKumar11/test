@@ -54,13 +54,13 @@ export default function Header({ postion }) {
             <Logo />
             </div>
 
-            <div className="invisible lg:visible" style={{width:"500px"}}>
+            <div className="hidden lg:flex" style={{width:"500px"}}>
             <SearchBar />
             </div>
 
             {/* </div> */}
 
-            <div className="invisible lg:visible flex flex-row">
+            <div className="hidden lg:flex gap-[1rem]">
             <SubmitProject />
             <WalletConnect />
             </div>
@@ -71,7 +71,7 @@ export default function Header({ postion }) {
             {/* </div> */}
             
              </div>
-            <div onClick={()=>{setModel(true)}} className="text-black visible lg:hidden">
+            <div onClick={()=>{setModel(true)}} className="text-black visible block lg:hidden">
             <DehazeIcon className={styles.hammMenu}/>
                 {/* <Image src={Ham} className="w-10 h-8 border border-black rounded-lg mr-2" /> */}
             </div>

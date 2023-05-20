@@ -719,9 +719,9 @@ Table sub clients bg (Neutral 0)
     padding: 8px !important;
     gap: 2px !important;
     position: absolute !important;
-    width: 150% !important;
-    height: 150px !important;
-    right: 13% !important;
+    width: 100% !important;
+    height: 7rem !important;
+    right: 0 !important;
     top: 230px !important;
     background: #FFFFFF !important;
     /* Surface/Strong Divider */
@@ -837,11 +837,20 @@ Table sub clients bg (Neutral 0)
         justify-content: center !important;
     }
     .share .Share{
-        left: 3rem;
+        left: 2.7rem;
+        top: 8.7rem;
+    }
+    .shareButtons{
+        /* border: none  !important; */
+        top: 11rem !important;
+        left: 1rem !important;
+        width: max-content !important;
     }
     .report{
         margin-left:-1.25rem ;
         left: 2rem;
+        top: 7rem !important;
+        height: 2rem !important;
     }
     .describe{
         top: 71rem !important;
