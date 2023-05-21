@@ -46,20 +46,20 @@ export default function Header({ postion }) {
         <>
       
 
-        <div className="lg:justify-between" style={{display:"flex", flex:"row", width:"100%", justifyContent:"space-between", marginTop:"2px", marginBottom:"2px", PaddingLeft:"20px", paddingRight:"20px", alignItems:"center" }}  >
+        <div className="lg:justify-between" style={{display:"flex", flex:"row", width:"100%", justifyContent:"space-between", marginTop:"2px", marginBottom:"2px", PaddingLeft:"20px", paddingRight:"20px", alignItems:"center", }}  >
 
             {/* <div style={{display:"flex", flex:"row"}}> */}
             <div>
             <Logo />
             </div>
 
-            <div className="hidden lg:flex" style={{width:"800px", minWidth:"500px"}}>
+            <div className="hidden lg:flex items-center justify-center" style={{width:"800px", minWidth:"500px"}}>
             <SearchBar />
             </div>
  
             {/* </div> */}
 
-            <div className="hidden lg:flex flex-row">
+            <div className="hidden lg:flex flex-row gap-[1.5rem]">
             <SubmitProject />
             <WalletConnect />
             </div>

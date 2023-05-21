@@ -563,6 +563,7 @@ a {
 
 .component {
   align-items: center !important;
+  width: 100%;
 }
 
 .component .search {
@@ -590,7 +591,7 @@ a {
   color: #000000 !important;
   background-color: #F9F9FB !important;
   height: 90% !important;
-  padding: 2% !important;
+  padding: .5rem !important;
 }
 
 .component .focus {
