@@ -1180,7 +1180,9 @@ a {
 
 @media (min-width:1200px) {
 
-
+  .wid{
+    width:550px;
+  }
   #cardbody {
     max-width: 410px !important;
     width: 410px !important;

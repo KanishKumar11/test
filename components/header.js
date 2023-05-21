@@ -53,7 +53,7 @@ export default function Header({ postion }) {
             <Logo />
             </div>
 
-            <div className="hidden lg:flex items-center justify-center" style={{width:"800px", minWidth:"500px"}}>
+            <div className={`hidden lg:flex items-center justify-center ${styles.wid}`}>
             <SearchBar />
             </div>
  

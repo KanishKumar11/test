@@ -389,6 +389,9 @@
   top: 20px;
   right: 70px;
 }
+.dropdown .search{
+  top:16px;
+}
 .logoOnDrop{
   color: #000000;
   position: absolute;
@@ -493,4 +496,15 @@
     display: inline-block;
     }
     
+}
+
+@media (min-width:1200px) {
+  .wid{
+    width:550px;
+  }
+}
+@media (max-width:1199px) {
+  .wid{
+    width:450px;
+  }
 }
