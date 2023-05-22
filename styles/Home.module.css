@@ -400,16 +400,17 @@
   color: #000000;
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 45px;
 }
 .search{
   color: #000000;
   position: absolute;
-  top: 20px;
+  top: 18px;
   right: 70px;
 }
 .dropdown .search{
   top:16px;
+  right: 85px;
 }
 .logoOnDrop{
   color: #000000;
