@@ -200,6 +200,24 @@
 .hammMenu{
   display: none;
 }
+@media (max-width:25rem) {
+  .projGrid{
+    width: 18rem !important;
+    max-width: 100vw !important;
+    gap: calc(5vw);
+    align-self: center;
+    margin-left: -2.5rem !important;
+    align-items:center ;
+    justify-content: space-between !important;
+  }
+  .projImg{
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+  }
+  .projGrid button{
+    width: 6rem ;
+  }
+}
 
 @media screen and (max-width: 800px) {
   .projGrid{

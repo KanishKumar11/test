@@ -196,7 +196,7 @@ const Project = ({ data, project, teams }) => {
     <div className={styles.team}>
       <div className={styles.meettab}>
         <p className={styles.meettheteam}>Meet the Team</p>
-        <div className={styles.viewall}>View All</div>
+        {/* <div className={styles.viewall}>View All</div> */}
       </div>
       <ul className={styles.teamlist}>
         {teams.data && teams.data.map((team, index) => (
@@ -209,49 +209,14 @@ const Project = ({ data, project, teams }) => {
           </div>
         ))}
 
-{/* Remove Below dummy code */}
-        <div className={styles.teamview}>
-            <img src="../images/people/8.png" alt="profile" className={styles.profileimg} />
-            <div className={styles.name}>name</div>
-           
-              <p className={styles.twittername}>twitter</p>
-           
-          </div>
-          <div className={styles.teamview}>
-            <img src="../images/people/8.png" alt="profile" className={styles.profileimg} />
-            <div className={styles.name}>name</div>
-           
-              <p className={styles.twittername}>twitter</p>
-           
-          </div>
-          <div className={styles.teamview}>
-            <img src="../images/people/8.png" alt="profile" className={styles.profileimg} />
-            <div className={styles.name}>name</div>
-           
-              <p className={styles.twittername}>twitter</p>
-           
-          </div>
-          <div className={styles.teamview}>
-            <img src="../images/people/8.png" alt="profile" className={styles.profileimg} />
-            <div className={styles.name}>name</div>
-           
-              <p className={styles.twittername}>twitter</p>
-           
-          </div>
-          <div className={styles.teamview}>
-            <img src="../images/people/8.png" alt="profile" className={styles.profileimg} />
-            <div className={styles.name}>name</div>
-           
-              <p className={styles.twittername}>twitter</p>
-           
-          </div>
+
       </ul>
 
     </div>
     <div className={styles.upvotedprofiles}>
       <div className={styles.meettab}>
         <p className={styles.meettheteam}>Recent Upvoted Profiles</p>
-        <div className={styles.viewall}>View All</div>
+        {/* <div className={styles.viewall}>View All</div> */}
       </div>
       <ul className={styles.teamlist}>
         {teams && teams.data && teams.data.map((team, index) => (
@@ -264,35 +229,7 @@ const Project = ({ data, project, teams }) => {
             
           </div>
         ))}
-{/* Remove Below dummy code */}
-        <div className={styles.teamview}>
-            <img src="../images/people/8.png" alt="profile" className={styles.profileimg} />
-            <div className={styles.name}>name</div>
-           
-              <p className={styles.twittername}>twitter</p>
-           
-          </div>
-          <div className={styles.teamview}>
-            <img src="../images/people/8.png" alt="profile" className={styles.profileimg} />
-            <div className={styles.name}>name</div>
-           
-              <p className={styles.twittername}>twitter</p>
-           
-          </div>
-          <div className={styles.teamview}>
-            <img src="../images/people/8.png" alt="profile" className={styles.profileimg} />
-            <div className={styles.name}>name</div>
-           
-              <p className={styles.twittername}>twitter</p>
-           
-          </div>
-          <div className={styles.teamview}>
-            <img src="../images/people/8.png" alt="profile" className={styles.profileimg} />
-            <div className={styles.name}>name</div>
-           
-              <p className={styles.twittername}>twitter</p>
-           
-          </div>
+
           
       </ul><div className={styles.footer}><Footer /></div>
     </div>

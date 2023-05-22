@@ -101,7 +101,11 @@ const Explore = ({ data, category, period }) => {
     setselectedTab("popular");
     setselectedPeriod("all");
   }
+  function handleHide() {
 
+  }
+
+  
   function handleTabSelect(tab) {
     setselectedTab("popular");
     setselectedPeriod(tab);
@@ -293,7 +297,7 @@ const Explore = ({ data, category, period }) => {
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
             >
-              <Box sx={style} className="rounded-lg">
+              <Box sx={style} className="rounded-lg w-[280px]">
 
                 {A && <Col style={{ backgroundColor: "#FFFFFF " }} className={`${tstyles.tcol} explorer-col`} onClick={() => {
                   if (window.innerWidth < 800) {
@@ -303,7 +307,7 @@ const Explore = ({ data, category, period }) => {
                 }}>
                   <CancelIcon className="cancel1" />
                   {items.map((item) => (
-                    <div key={item.category}>
+                    <div key={item.category} onClick={handleItemClick}>
                       <div
                         className={selectedItem === item.tag ? "activesidebar" : "sidebar"}
                         onClick={() => handleItemClick(item.tag)}

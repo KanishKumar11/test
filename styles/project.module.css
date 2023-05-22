@@ -134,7 +134,7 @@ Table sub clients bg (Neutral 0)
     position: absolute !important;
     width: 160px !important;
     height: 200px !important;
-    left: 85% !important;
+    right:4rem !important;
     top: 130px !important;
 }
 
@@ -515,7 +515,7 @@ Table sub clients bg (Neutral 0)
     align-items: center !important;
     justify-content: center !important;
 
-    /* Caption/Regular */
+    /* Caption/Regularexplore */
 
     font-family: 'Poppins' !important;
     font-style: normal !important;
@@ -849,6 +849,7 @@ Table sub clients bg (Neutral 0)
     .report{
         margin-left:-1.25rem ;
         left: 2rem;
+        border: none !important;
         top: 7rem !important;
         height: 2rem !important;
     }
@@ -974,4 +975,59 @@ Table sub clients bg (Neutral 0)
     flex-direction: column !important;
     align-items: flex-start !important;
     justify-content: flex-start !important;
+}
+@media (min-width:63rem) {
+    .card{
+        background-color: #080C0F !important;
+        height: 2.75rem !important;
+        width: auto !important;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .report{
+        border: none !important;
+        right: 0 !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        top: 6.5rem !important;
+        
+    }
+    .Share{
+        right: 4.5rem !important;
+        top: 10.5rem !important;
+    }
+    .frame4 .card .arrow{
+        color: white !important ;
+        padding-top: 0 !important;
+        height: auto !important;
+    }
+    .frame4 .card .num{
+        color: white !important;
+        padding-top: 0 !important;
+    }
+    .visit{
+        border: 1.5px solid #F1F1F3 !important;
+        position: absolute !important;
+        right: -1rem !important;
+        
+        height: 2.75rem !important;
+        top: 2.5rem !important;
+        width: auto !important;
+        min-width: 11.6rem !important;
+    }
+    .frame3{
+        right: 4rem !important;
+        top: 13rem !important;
+    }
+    .frame4{
+        align-items: center !important;
+    }
+}
+.frame4 .card .up{
+    color: white;
+    display: inline !important;
+    text-transform: none;
+    margin-left: 1rem;
 }

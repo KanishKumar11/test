@@ -301,6 +301,8 @@ export const Vote = ({ allVotes }) => {
             <Button onClick={handleClick} className={pstyles.btn}>
                 <div className={`card-number ${pstyles.card}`}>
                     <div className={`card-arrow ${pstyles.arrow}`}>&#9650;</div>
+                    <div className={`up ${pstyles.up}`}>Upvote</div>
+
                     <div className={`card-num ${pstyles.num}`}>{allVotes>0?allVotes:0}</div>
                 </div>
             </Button>
