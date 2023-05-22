@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import styles from "../styles/Review.module.css";
+import tstyles from "../styles/tailwind.module.css"
 
 const CourseMap = ({
   id,
@@ -13,23 +14,22 @@ const CourseMap = ({
   onDiscussClick,
 }) => (
 
-  <div className="modal-dialog items-center"> 
+  <div className={`modal-dialog ${tstyles.tc}`}> 
 
-        <div className="w-60 h-60 blur-3xl bg-blue-500 rounded-full absolute group-hover:bg-blue-600 duration-1000 right-5 bottom-14 opacity-20"></div>
-        <div className="w-60 h-60 blur-3xl bg-blue-500 rounded-full absolute group-hover:bg-blue-600 duration-1000 left-1 top-4 opacity-20"></div>
+        <div className={tstyles.tfgg}></div>
+        <div className={tstyles.tffg}></div>
        
          <motion.div
          whileHover={{ scale: 1.1 }}
          
-         className="bg-clip-padding backdrop-filter px-6 py-4 backdrop-blur-xl bg-opacity-60 border border-white/10 bg-gradient-to-tl to-amber-800/10 group duration-500 rounded-3xl card-animation hover:border-white/80 via-wgite-900 from-white/10"
-       >
+className={tstyles.tyh}       >
        {/* <Image src={props.imgLink} alt="ima" width={100} height={100}/> */}
-        <div className="flex flex-row items-center ">
-       <div className="ml-7">
+        <div className={tstyles.thj}>
+       <div className={tstyles.tlf}>
       
        </div>
         </div>
-         <div className=" text-2xl items-center flex flex-row justify-center font-semibold mt-5 mb-5 text-pink-500">
+         <div className={tstyles.ymj}>
           <div></div>
           Review title
          </div>
