@@ -46,20 +46,20 @@ export default function Header({ postion }) {
         <>
       
 
-        <div className={tstyles.tlg} style={{display:"flex", flex:"row", width:"100%", justifyContent:"space-between", marginTop:"2px", marginBottom:"2px", PaddingLeft:"20px", paddingRight:"20px", alignItems:"center", }}  >
+        <div className="lg:justify-between" style={{display:"flex", flex:"row", width:"100%", justifyContent:"space-between", marginTop:"2px", marginBottom:"2px", PaddingLeft:"20px", paddingRight:"20px", alignItems:"center", }}  >
 
             {/* <div style={{display:"flex", flex:"row"}}> */}
             <div>
             <Logo />
             </div>
 
-            <div className={`${tstyles.tsea} ${styles.wid}`}>
+            <div className={`hidden lg:flex items-center justify-center ${styles.wid}`}>
             <SearchBar />
             </div>
  
             {/* </div> */}
 
-            <div className={tstyles.tsub}>
+            <div className="hidden lg:flex flex-row gap-[1.5rem]">
             <SubmitProject />
             <WalletConnect />
             </div>
@@ -70,7 +70,7 @@ export default function Header({ postion }) {
             {/* </div> */}
             
             </div>
-            <div onClick={()=>{setModel(true)}} className={tstyles.tclick}>
+            <div onClick={()=>{setModel(true)}} className="text-black visible block lg:hidden mr-3">
             <DehazeIcon className={styles.hammMenu}/>
                 {/* <Image src={Ham} className="w-10 h-8 border border-black rounded-lg mr-2" /> */}
             </div>

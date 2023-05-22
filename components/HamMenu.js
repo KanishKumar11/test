@@ -1,13 +1,12 @@
 import React from 'react'
-import tstyles from '../styles/tailwind.module.css'
 
 function HamMenu({model, setmodel}) {
   return (
 
-    <div className={tstyles.tran}>
+    <div className='bg-black w-1/2 h-full z-50'>
         {model && (
-            <div className={tstyles.tmm}>
-                <p className={tstyles.tw}>hii</p>
+            <div className='bg-black w-1/2'>
+                <p className='text-white'>hii</p>
         
             </div>
         )}

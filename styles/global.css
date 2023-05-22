@@ -2,6 +2,9 @@
 @import './common/text.css';
 @import './common/colors.css';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   font-family: 'Poppins' !important
