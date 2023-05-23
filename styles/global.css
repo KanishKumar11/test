@@ -2826,7 +2826,7 @@ list-style: none;
   }
 
   .sidebar-sub{
-    padding: 3px 10px;
+    padding: 3px 10px !important;
   }
   
   .nav-buttons{
@@ -2893,4 +2893,14 @@ list-style: none;
  .nav-tab{
   width: 80%;
  }
+}
+@media (max-width:366px) {
+  #dropdownHover{
+    top:19rem !important;
+  }
+}
+@media (max-width:800px){
+  .sidebar{
+    padding: 5px 10px !important;
+  }
 }

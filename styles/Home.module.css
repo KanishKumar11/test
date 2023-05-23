@@ -195,6 +195,7 @@
 
 .btnGrid{
   justify-content: center;
+  width: 100%;
 }
 
 .hammMenu{
@@ -236,7 +237,7 @@
     flex-direction: column;
     align-items: center !important; 
     justify-content: center !important;
-    /* margin-left:auto !important; */
+    margin-left:1vw !important;
   }
   .secGrid > div{
     max-width: none;
@@ -248,7 +249,7 @@
   .sec{
     display: flex;
     flex-direction: column;
-    align-items: self-start;
+    align-items: center;
     min-width: 20rem;
     border: 1px solid #d9d3d3;
     border-radius: 30px;
@@ -568,5 +569,10 @@
 @media (min-width:350px) and (max-width:370px) {
   .groupParent{
     right: 4.5rem !important;
+  }
+}
+@media (max-width:392px) {
+  .btnGrid{
+    justify-content: flex-end;
   }
 }
