@@ -55,7 +55,7 @@ export default function Home() {
         </Grid>
         <Grid container direction='column' spacing={10} alignItems='center' style={{ marginTop: "7%", marginLeft: ".05%" }}>
           <Grid item xs={12}>
-            <Paper elevation={0}>
+            <Paper elevation={0} className={styles.hgg}>
               <Typo className={styles.GradSubTxt}>
                 🔥 Trending Projects
               </Typo>

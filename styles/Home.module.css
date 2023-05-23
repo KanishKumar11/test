@@ -167,7 +167,7 @@
   margin-top: 175px;
   position: absolute !important;
   top: 0 !important;
-  left: 25% !important;
+  /* left: 25% !important; */
   width: 369px !important;
   height: 371px !important;
 }
@@ -220,7 +220,7 @@
   .GradSubTxt{
     width: 100vw !important;
     text-align: center !important;
-    margin-left: -5rem !important;
+    /* margin-left: -5rem !important; */
   }
 }
 
@@ -241,6 +241,9 @@
   .secGrid > div{
     max-width: none;
     
+  }
+  .hgg{
+    margin-left:-80px;
   }
   .sec{
     display: flex;
@@ -541,5 +544,24 @@
 @media (min-width:50rem) {
   .groupParent{
     right: 2rem !important;
+  }
+}
+
+@media (min-width:1024px){
+  .ellipseParent{
+    right: 5rem !important;
+    top: 0 !important;
+  }
+}
+@media (min-width:1200px){
+  .ellipseParent{
+    right: 15rem !important;
+    top: 0 !important;
+  }
+}
+@media (min-width:1400px){
+  .ellipseParent{
+    right: 25rem !important;
+    top: 0 !important;
   }
 }
