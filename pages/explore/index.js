@@ -297,7 +297,7 @@ const Explore = ({ data, category, period }) => {
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
             >
-              <Box sx={style} className="rounded-lg w-[280px]">
+              <Box sx={style} className={tstyles.tssty}>
 
                 {A && <Col style={{ backgroundColor: "#FFFFFF " }} className={`${tstyles.tcol} explorer-col`} onClick={() => {
                   if (window.innerWidth < 800) {
@@ -385,7 +385,7 @@ const Explore = ({ data, category, period }) => {
                   <div>
 
 
-                    {N && <button onClick={() => { setM(prev => !prev) }} id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" className={tstyles.thov} type="button">All Time <svg className="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M19 9l-7 7-7-7"></path></svg></button>}
+                    {N && <button onClick={() => { setM(prev => !prev) }} id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" className={tstyles.thov} type="button">All Time <svg className={tstyles.tsvg} aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M19 9l-7 7-7-7"></path></svg></button>}
                     {/* <!-- Dropdown menu --> */}
                     {M && <div id="dropdownHover" className={tstyles.tdrophover}>
                       <ul className={tstyles.tlist} aria-labelledby="dropdownHoverButton">

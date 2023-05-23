@@ -917,6 +917,8 @@ Table sub clients bg (Neutral 0)
    }
    .h2{
     color: black;
+    font-size: 17px;
+    font-weight: 400;
    }
 }
 

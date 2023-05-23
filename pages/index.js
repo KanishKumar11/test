@@ -53,7 +53,7 @@ export default function Home() {
             {/* <Grid item xs={6} /> */}
           </Grid>
         </Grid>
-        <Grid container direction='column' spacing={10} alignItems='center' style={{ marginTop: "7%" }}>
+        <Grid container direction='column' spacing={10} alignItems='center' style={{ marginTop: "7%", marginLeft: ".05%" }}>
           <Grid item xs={12}>
             <Paper elevation={0}>
               <Typo className={styles.GradSubTxt}>
@@ -61,7 +61,7 @@ export default function Home() {
               </Typo>
             </Paper>
           </Grid>
-          <Grid item>
+          <Grid item classname={styles.pp}>
             <Grid container direction='row' columns={24} alignItems='center' className={styles.projGrid}>
               
               <Grid item xs={4}>

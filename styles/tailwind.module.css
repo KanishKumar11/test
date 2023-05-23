@@ -172,3 +172,122 @@
         display: none;
     }
 }
+.tssty{
+    border-radius: 0.5rem;
+    width: 17.5rem;
+}
+.tsvg{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+@media (min-width: 1024px) {
+    .tlg {
+        justify-content: space-between !important;
+    }
+    .tsea{
+        display: flex !important;
+    }
+    .tsub{
+        display: flex !important;
+    }
+    .tclick{
+        display: none !important;
+    }
+}
+.tsea{
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.tsub{
+    display: none;
+    gap: 1.5rem;
+    flex-direction: row;
+}
+.tclick{
+    color: black;
+    visibility: visible;
+    display: block;
+    margin-right: 0.75rem;
+}
+.tmr{
+    margin-right: 2rem;
+}
+.tran{
+    background-color: black;
+    width: 50%;
+    z-index: 50;
+    height: 100%;
+}
+.tmm{
+    background-color: black;
+    width: 50%;
+}
+.tw{
+    color: white;
+}
+.tc{
+    align-items: center;
+}
+.tfgg{
+    width: 15rem;
+    height: 15rem;
+    position: absolute; 
+right: 1.25rem; 
+bottom: 3.5rem; 
+background-color: #3B82F6; 
+transition-duration: 1000ms; 
+border-radius: 9999px; 
+opacity: 0.2; 
+filter: blur(64px); 
+
+}
+.tffg{
+    width: 15rem;
+    height: 15rem;
+    position: absolute; 
+left: 0.25rem; 
+top: 1rem; 
+background-color: #3B82F6; 
+transition-duration: 1000ms; 
+border-radius: 9999px; 
+opacity: 0.2; 
+filter: blur(64px); 
+
+}
+.tyh{
+    background-clip: padding-box;
+    padding-top: 1rem;
+padding-bottom: 1rem; 
+padding-left: 1.5rem;
+padding-right: 1.5rem; 
+background-clip: padding-box; 
+opacity: 0.6; 
+/* background-image: liner-gradient(to top left, var(--tw-gradient-stops));  */
+transition-duration: 500ms; 
+border-radius: 1.5rem; 
+border-width: 1px; 
+filter: blur(24px); 
+
+}
+.thj{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tlf{
+    margin-left: 1.75rem;
+}
+.ymj{
+   font-size: 1.5rem; 
+   line-height: 2rem;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-weight: 600;
+   margin: 1.25rem 0;
+   color: rgb(236, 82, 108);
+}

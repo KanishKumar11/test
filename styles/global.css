@@ -2,12 +2,13 @@
 @import './common/text.css';
 @import './common/colors.css';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 * {
-  font-family: 'Poppins' !important
+  font-family: 'Poppins' !important;
+  max-width: 100vw !important;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -141,6 +142,37 @@ body {
   src: local('Poppins'), url(/fonts/Poppins-BlackItalic.woff) format('woff')
 }
 
+img, video{
+  height: auto;
+  max-width: 100%;
+}
+
+audio, canvas, embed, iframe, img, object, svg, video{
+  display: block;
+  vertical-align: middle;
+}
+[type=button], [type=reset], [type=submit], button{
+  -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+
+}
+[role=button], button {
+  cursor: pointer;
+}
+button, select {
+  text-transform: none;
+  border: none;
+}
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
 :root {
   --primaryAction: #007D54;
   --primaryHover: #339776;
@@ -2533,7 +2565,9 @@ Table sub clients bg (Neutral 0)
   color: #FFFFFF !important;
 
 }
-
+li{
+list-style: none;
+}
 .nav-2-0 {
   display: flex !important;
   flex-direction: row !important;
@@ -2848,4 +2882,15 @@ Table sub clients bg (Neutral 0)
 }
 .up{
   display:none !important;
+}
+.pp{
+  padding: 0 !important;
+}
+@media (min-width:64rem) and (max-width:80rem) {
+ .cardgridview{
+  width: 70vw;
+ } 
+ .nav-tab{
+  width: 80%;
+ }
 }
