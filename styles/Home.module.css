@@ -287,7 +287,7 @@
     margin-top: 175px;
     position: absolute !important;
     top: 0 !important;
-    left: -3rem !important;
+    /* left: -3rem !important; */
     width: 369px !important;
     height: fit-content !important;
   }
