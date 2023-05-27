@@ -20,10 +20,19 @@ function SubjectCreation() {
     navigate('/ChatUI')
   }
   return (
-    <div>
-      <input placeholder='create a subject' value={Sub} onChange={(e)=>{setSub(e.target.value)}} />
-      <button onClick={()=>{handleClick(Sub)}}>chat</button>
+    <div className='text-center bg-gray-800 h-[100vh] items-center justify-between w-full flex flex-col text-white'>
+    <div className='self-start items-center flex justify-center font-[600] text-[23px] w-full relative p-7'>
+      <span className='text-[40px] font-[800] absolute left-3'>&larr;</span><span className='self-center items-center'>Create subject</span></div>
+      <div>
+    <h1 className='text-white text-[23px] font-[700] my-10'>Create a subject in your class</h1>
+    <h3 className='my-10 text-gray-400'>Class name</h3>
+    <input required placeholder='create a subject' value={Sub} onChange={(e)=>{setSub(e.target.value)}} className='bg-transparent my-10 w-[80%] border-b-2 border-blue-700 text-center px-5' />
+    <p> *It will create a new class in the server</p>
+    <button onClonClick={()=>{handleClick(Sub)}} className='bg-blue-600 px-20 py-5 rounded-[4rem] my-5'>chat</button>
     </div>
+    <div></div>
+  </div>
+
   )
 }
 

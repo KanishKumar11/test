@@ -58,8 +58,8 @@ function Login() {
             </div>
             <Button 
                 onClick = {signIn}
-                className ="login__button bg-blue-600 rounded-lg py-10">Sign In With Google</Button>
-            <video autoplay loop muted className='absolute inset-0 w-full h-full object-cover z-10' >
+                className ="login__button bg-blue-600 rounded-lg py-10 cursor-pointer z-20">Sign In With Google</Button>
+            <video autoplay loop muted className='absolute inset-0 w-full h-full object-cover z-[-10]' >
               <source src="../public/back.mp4" type='video/mp4'/>
               Your browser not supports video
               </video>
